@@ -436,40 +436,25 @@ ul{
 }
 .dog-info{
   padding: 1rem;
-  background-image: linear-gradient(120deg, #f3cd52 0%, #f58a6d 100%);
+  background: rgb(255, 246, 246);
   position: relative;
-    top: -4px;
+  top: -4px;
 }
 .dog-info div{
   padding: .5rem 0;
   margin-bottom: .5rem;
-
-}
-.dog-info > div span{
-  font-size: 1.125rem;
-  font-weight: bold;
-  color: #313131;
-}
-.dog-info > div span::before{
-  content: "";
-  display: inline-block;
-  height: 6px;
-  width: 6px;
-  border-radius: 50%;
-  background: rgb(0, 0, 0);
-  margin-right: .5rem;
-}
-.dog-info > div span + span{
-  font-weight: bold;
-  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .dog-info a{
   overflow: hidden;
 }
 .card-dog .btn{
-  border:none;
-  background: #fda085;
   text-transform: capitalize;
+}
+.card-dog .btn:hover{
+   transform: translate(0px, 0px);
 }
 /* Versão Mobile */
 @media(max-width: 768px){

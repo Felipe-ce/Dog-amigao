@@ -27,7 +27,8 @@ function initAccosdionList() {
   
 }
 
-// export default function initTabNav() {
+// Função navegação por tabs
+function initTabNav() {
   const tabMenu = document.querySelectorAll('#categoria');
   const tabContent = document.querySelectorAll('.card-dog');
 
@@ -105,7 +106,8 @@ function initAccosdionList() {
       });
     });
   } 
-// }
-// initTabNav()
+}
+
+initTabNav()
 initAccosdionList()
 iniMenuMobile()
